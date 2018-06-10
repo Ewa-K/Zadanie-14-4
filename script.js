@@ -1,9 +1,5 @@
 var Counter = React.createClass({
 
-    getDefaultProps: function() {
-        console.log();
-    },
-
     getInitialState: function() {
         return {
             counter: 0,
